@@ -4,7 +4,7 @@
    "description": "Whatsapp Bot - Node Js",
    "main": "index.js",
    "scripts": {
-      "start": "node index.js"
+      "heroku-postbuild": "npm run build"
    },
    "author": "AlvioAdjijanuar",
    "repository": {
@@ -52,7 +52,8 @@
       "node-fetch": "^2.6.1",
       "node-gtts": "^2.0.2",
       "node-tesseract-ocr": "^2.0.0",
-      "npm": "^8.6.0",
+      "npm": "5.6.0",
+       "node": "8.10.0"
       "music-lyrics": "^2.0.2",
       "nekos.life": "^2.0.9",
       "parse-ms": "^2.1.0",
